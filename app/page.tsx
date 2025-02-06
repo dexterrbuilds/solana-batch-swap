@@ -45,7 +45,7 @@ export default function Home() {
           <SwapExecutor selectedTokens={selectedTokens} targetToken={targetToken} />
         </>
       ) : (
-        <p>Please connect your wallet to continue.</p>
+        <div>Please connect your wallet to continue.</div>
       )}
     </div>
   )
